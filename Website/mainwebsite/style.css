@@ -1,0 +1,327 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+html,body{ 
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+
+
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+@font-face {
+  font-family: Barlow;
+  src:url(font/barlow.ttf);
+ }
+
+#button {
+  position: absolute;
+  top: 5%;
+  left: 240%;
+}
+
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color:transparent;
+  border:2px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: Barlow, "sans-serif", generic;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
+.myButton:hover {
+  background-color:transparent;
+  border:2px solid #00f9ff;
+  color: #00f9ff;
+}
+
+#particles-js{
+  width: 245%;
+  height: 100%;
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+
+body{
+    background-color: black;
+	margin: 0;
+    opacity: 1;
+    transition: 1s opacity;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+
+a:hover {
+	cursor: pointer;
+}
+
+#Sohrob {
+	opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+	top: 25%;
+}
+
+#Sohrob:hover {
+	opacity: 1;
+}
+
+
+#Kevin {
+	opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s;
+	position: absolute;
+	left: 75%;
+	top: 17%;
+}
+
+#Kevin:hover {
+	opacity: 1;
+}
+
+
+#Denzel {
+	opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+	left: 44%;
+	top: 25%;
+}
+
+#Denzel:hover {
+	opacity: 1;
+}
+
+#Marisol {
+  opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+  left: 117%;
+  top: 25%;
+}
+
+#Marisol:hover {
+  opacity: 1;
+}
+
+#Mary {
+  opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+  left: 205%;
+  top: 25%;
+}
+
+#Mary:hover {
+  opacity: 1;
+}
+
+#Mate {
+  opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+  left: 160%;
+  top: 23%;
+}
+
+#Mate:hover {
+  opacity: 1;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+}
+
+
+/* Add Animation */
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.8s;
+    animation-name: zoom;
+    animation-duration: 0.8s;
+}
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #00f9ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close1 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #00f9ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #00f9ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #00f9ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close4 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #00f9ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close5 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close5:hover,
+.close5:focus {
+    color: #00f9ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00f9ff;
+  font-size: medium;
+}

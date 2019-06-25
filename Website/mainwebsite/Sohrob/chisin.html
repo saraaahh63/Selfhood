@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<video autoplay muted id="chicago" width="500">
+		<source src="chicago.mp4">
+	</video>
+
+
+	<video muted autoplay id="singapore" width="500">
+		<source src="singapore.mp4">
+	</video>
+
+	<script type="text/javascript">
+
+var audio = document.createElement("audio");
+audio.src="from.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        
+    }, false);
+
+</script>
+
+
+</body>
+
+</html>

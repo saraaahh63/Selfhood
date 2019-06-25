@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<video autoplay width="400" height="300">
+	<source src="icecream.mp4">
+</video>
+
+<script type="text/javascript">
+
+var audio = document.createElement("audio");
+audio.src="food.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        
+    }, false);
+
+</script>
+
+</body>
+
+</html>

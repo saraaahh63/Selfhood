@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: black;
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+
+<video autoplay muted width="400" height="350">
+	<source src="dance.mp4">
+</video>
+
+<script type="text/javascript">
+
+var audio = document.createElement("audio");
+audio.src="hobby.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        
+    }, false);
+
+</script>
+
+</body>
+
+</html>

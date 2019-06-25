@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<p> I don't like to give out free information</p>
+
+<script type="text/javascript">
+
+var audio = document.createElement("audio");
+audio.src="myself.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        setTimeout(function(){
+            audio.pause();
+        },
+        4000);
+        
+    }, false);
+
+</script>
+
+</body>
+
+</html>

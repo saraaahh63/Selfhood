@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+</head>
+
+<body>
+
+<style type="text/css">
+	body{
+		background-color: black;
+		margin: 0;
+	}
+</style>
+
+<video autoplay>
+	<source src="tekken.mp4">
+</video>
+
+<script type="text/javascript">
+
+var audio = document.createElement("audio");
+audio.src="hobby.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        
+    }, false);
+
+</script>
+
+</body>
+
+</html>

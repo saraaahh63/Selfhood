@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Selfhood</title>
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+    <script src="pagefadejs/pagefade-min.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+<div id="content">
+
+<div id="title">
+  <h1>Selfhood</h1>
+  </div>
+  <div id="about">
+  <p>An exploration of self identity through interactive imagery</p>
+  </div>
+  <div id="nav">
+  <a href="mainwebsite/index1.html">Begin</a>
+</div>
+
+<div id="button">
+<button id="myBtn" class="myButton">Learn More</button>
+</div>
+
+<div id="myModal" class="modal">
+
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>When we think of our own identity, we often rely on factors such as preference and life experience to construct our idea of self. However, much of what we string together in this system of construction is both transient and ever-changing. If all we ever experience and ever will experience is fleeting, how can it serve as the foundation for a permanent idea? In truth, the enduring self is an illusion. The moments we experience may define us for a particular period of time, but will not define us for all of time. We are not our likes. We are not our dislikes. And we are not our memories. All that we are is in flux. <br> <br>'Selfhood' looks at six individuals and what makes them who they are. As you interact with each person, consider the significance of what they hold dear and look for the parallels in your own identity. If you peel away these properties, what are you at your core?</p>
+    <br> <br> <h2>Created by Sarah Tahir</h2>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+  var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+} 
+
+</script>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

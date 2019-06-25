@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: black;
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+
+<audio autoplay controls="controls" id="elvis">
+	<source src="elvis.mp3">
+</audio>
+
+<script type="text/javascript">
+
+var e = document.getElementById("elvis")
+
+e.volume = 0.5;
+
+var audio = document.createElement("audio");
+audio.src="song.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        
+    }, false);
+
+</script>
+
+</body>
+
+</html>

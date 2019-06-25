@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: black;
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+
+<video autoplay muted width="500" height="450">
+	<source src="indian.mp4">
+</video>
+
+<script type="text/javascript">
+
+var audio = document.createElement("audio");
+audio.src="food.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        
+    }, false);
+
+</script>
+
+</body>
+
+</html>

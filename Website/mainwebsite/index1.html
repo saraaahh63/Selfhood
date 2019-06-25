@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.maphilight.js"></script>
+
+  <script type="text/javascript">$(function() {
+        $('.modal-content').maphilight();
+        $('#area').mouseover(function(e) {
+            $('#area').mouseover();
+        }).mouseout(function(e) {
+            $('#area').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+    });</script>
+
+</head>
+
+<body>
+<script> document.body.className += ' fade-out';</script>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<div id="button">
+<a id="myBtn" class="myButton" href="../index.html">Back</a>
+</div>
+
+
+<img id="Denzel" src="images/denz1.png">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" usemap="#denz">
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var a = document.getElementById('Denzel');
+var modalImg = document.getElementById("img01");
+a.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+<map name="denz">
+   <area id="area" shape="rect" coords="161,18,200,68" href="denzel/audiopopup.html" onClick="return popup(this, 'gloss')">
+   <area href="denzel/text1.html" coords="224,32,268,79" shape="rect" onClick="return popup4(this, 'gloss')">
+    <area href="denzel/icecream.html" coords="224,134,275,166" shape="rect" onClick="return popup2(this, 'gloss')">
+    <area href="denzel/mangotrees.html" coords="280,44,315,83" shape="rect" onClick="return popup1(this, 'gloss')">
+    <area href="denzel/text2.html" coords="189,76,219,107" shape="rect" onClick="return popup5(this, 'gloss')">
+ </map>
+
+ <img id="Sohrob" src="images/srob1.png">
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+  <span class="close1">&times;</span>
+  <img class="modal-content" id="img02" usemap="#sohrob">
+</div>
+
+<script>
+// Get the modal
+var modal1 = document.getElementById('myModal1');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var b = document.getElementById('Sohrob');
+var modalImg1 = document.getElementById("img02");
+b.onclick = function(){
+    modal1.style.display = "block";
+    modalImg1.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close1")[0];
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() { 
+    modal1.style.display = "none";
+}
+</script>
+
+
+<map name="sohrob">
+    <area href="Sohrob/goby.html" coords="207,279,295,316" shape="rect" onClick="return popup8(this, 'gloss')">
+    <area href="Sohrob/walking.html" coords="338,149,446,289,410,241" shape="rect" onClick="return popup9(this, 'gloss')">
+    <area href="Sohrob/text3.html" coords="129,147,151,180" shape="rect" onClick="return popup10(this, 'gloss')">
+    <area href="Sohrob/srobaudio.html" coords="208,145,257,189" shape="rect" onClick="return popup7(this, 'gloss')">
+     <area href="Sohrob/chisin.html" coords="270,190,316,234" shape="rect" onClick="return popup6(this, 'gloss')">
+</map>
+
+<img id="Kevin" src="images/kev1.png">
+
+<div id="myModal2" class="modal">
+  <span class="close2">&times;</span>
+  <img class="modal-content" id="img03" usemap="#kev">
+</div>
+
+<script>
+// Get the modal
+var modal2 = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var c = document.getElementById('Kevin');
+var modalImg2 = document.getElementById("img03");
+c.onclick = function(){
+    modal2.style.display = "block";
+    modalImg2.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() { 
+    modal2.style.display = "none";
+}
+</script>
+
+<map name="kev">
+    <area href="kevin/ima.html" coords="169,297,247,315" shape="rect" onClick="return popup13(this, 'gloss')">
+    <area href="kevin/tekken.html" coords="148,326,209,345" shape="rect" onClick="return popup14(this, 'gloss')">
+    <area href="kevin/eggs.html" coords="240,243,299,267" shape="rect" onClick="return popup12(this, 'gloss')">
+    <area href="kevin/text4.html" coords="186,226,228,248" shape="rect" onClick="return popup15(this, 'gloss')">
+    <area href="kevin/kevaudio.html" coords="113,155,154,276" shape="rect" onClick="return popup11(this, 'gloss')">
+</map>
+
+<img id="Marisol" src="images/marisol.png">
+
+<div id="myModal3" class="modal">
+  <span class="close3">&times;</span>
+  <img class="modal-content" id="img04" usemap="#marisol">
+</div>
+
+<script>
+// Get the modal
+var modal3 = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var d = document.getElementById('Marisol');
+var modalImg3 = document.getElementById("img04");
+d.onclick = function(){
+    modal3.style.display = "block";
+    modalImg3.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span3 = document.getElementsByClassName("close3")[0];
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() { 
+    modal3.style.display = "none";
+}
+</script>
+
+<map name="marisol">
+    <area href="marisol/dance.html" coords="196,125,230,158" shape="rect" onClick="return popup16(this, 'gloss')">
+    <area href="marisol/indian.html" coords="247,145,273,179" shape="rect" onClick="return popup17(this, 'gloss')">
+    <area href="marisol/winnie.html" coords="194,166,244,191" shape="rect" onClick="return popup18(this, 'gloss')">
+    <area href="marisol/audio.html" coords="196,75,223,109" shape="rect" onClick="return popup19(this, 'gloss')">
+    <area href="marisol/mexico.html" coords="160,117,190,160" shape="rect" onClick="return popup20(this, 'gloss')">
+    <area href="marisol/text.html" coords="242,211,265,193" shape="rect" onClick="return popup21(this, 'gloss')">
+</map>
+
+<img id="Mary" src="images/mary.png">
+
+<div id="myModal4" class="modal">
+  <span class="close4">&times;</span>
+  <img class="modal-content" id="img05" usemap="#mary">
+</div>
+
+<script>
+// Get the modal
+var modal4 = document.getElementById('myModal4');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var e = document.getElementById('Mary');
+var modalImg4 = document.getElementById("img05");
+e.onclick = function(){
+    modal4.style.display = "block";
+    modalImg4.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span4 = document.getElementsByClassName("close4")[0];
+
+// When the user clicks on <span> (x), close the modal
+span4.onclick = function() { 
+    modal4.style.display = "none";
+}
+</script>
+
+<map name="mary">
+    <area href="mary/audiomary.html" coords="213,142,242,189" shape="rect" onClick="return popup22(this, 'gloss')">
+    <area href="mary/noodles.html" coords="264,198,296,168" shape="rect" onClick="return popup23(this, 'gloss')">
+    <area href="mary/kids.html" coords="215,97,254,119" shape="rect" onClick="return popup24(this, 'gloss')">
+    <area href="mary/tianjin.html" coords="161,161,193,193" shape="rect" onClick="return popup25(this, 'gloss')">
+    <area href="mary/rabbit.html" coords="204,223,252,247" shape="rect" onClick="return popup26(this, 'gloss')">
+    <area href="mary/piano.html" coords="254,202,308,222" shape="rect" onClick="return popup27(this, 'gloss')">
+</map>
+
+<img id="Mate" src="images/mate.png">
+
+<div id="myModal5" class="modal">
+  <span class="close5">&times;</span>
+  <img class="modal-content" id="img06" usemap="#mate">
+</div>
+
+<script>
+// Get the modal
+var modal5 = document.getElementById('myModal5');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var f = document.getElementById('Mate');
+var modalImg5 = document.getElementById("img06");
+f.onclick = function(){
+    modal5.style.display = "block";
+    modalImg5.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span5 = document.getElementsByClassName("close5")[0];
+
+// When the user clicks on <span> (x), close the modal
+span5.onclick = function() { 
+    modal5.style.display = "none";
+}
+</script>
+
+<map name="mate">
+    <area href="mate/cooking.html" coords="296,121,339,171" shape="rect" onClick="return popup28(this, 'gloss')">
+    <area href="mate/audiom.html" coords="219,122,274,147" shape="rect" onClick="return popup29(this, 'gloss')">
+    <area href="mate/hobbit.html" coords="278,179,331,211" shape="rect" onClick="return popup30(this, 'gloss')">
+    <area href="mate/hungary.html" coords="219,156,273,194" shape="rect" onClick="return popup31(this, 'gloss')">
+    <area href="mate/text1.html" coords="218,202,273,244" shape="rect" onClick="return popup32(this, 'gloss')">
+    <area href="mate/text2.html" coords="292,215,327,266" shape="rect" onClick="return popup33(this, 'gloss')">
+</map>
+
+<script type="text/javascript">
+  $(function() {
+    $('body').removeClass('fade-out');
+});
+
+</script>
+
+</body>
+
+</html>

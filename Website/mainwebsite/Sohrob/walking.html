@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<video autoplay width="500" height="450">
+	<source src="walking.mp4">
+</video>
+
+<script type="text/javascript">
+
+var audio = document.createElement("audio");
+audio.src="memory.mp3";
+ audio.addEventListener("canplaythrough", function() {
+ 	 audio.play();
+        
+    }, false);
+
+</script>
+
+</body>
+
+</html>
